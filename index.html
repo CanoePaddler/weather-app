@@ -13,8 +13,35 @@
 </head>
 
 <body>
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+    </header>
 
-    <h1>Testing CSS</h1>
+    <main class="container">
+
+        <aside class="aside search">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Search for a City:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Example: Tucson">
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Button</button>
+                </div>
+            </div>
+        </aside>
+
+        <section class="section current-weather">
+            <h2 class="city">Tucson, AZ</h2>
+            <ul>
+                <li class="temp">Temp: 100</li>
+                <li class="wind">Wind: 13.4 mph</li>
+                <li class="humidity">Humidity: 35%</li>
+                <li>UV Index</li>
+            </ul>
+            <div class="section five-day">
+                <h3>5 Day Forecast:</h3>
+            </div>
+        </section>
+    </main>
 
 
 
