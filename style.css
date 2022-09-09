@@ -38,6 +38,7 @@ img {
 
 .container {
     display: flex;
+    margin-top: 2%;
 }
 
 .header {
@@ -52,8 +53,19 @@ img {
 
 .aside {
     display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    margin-right: 2%;
 }
 
 .section {
     display: flex;
+    flex-direction: column;
+    flex-grow: 6;
+    margin-left: 2%;
+}
+
+.btn-primary {
+    margin-top: 2%;
+    width: 100%;
 }
